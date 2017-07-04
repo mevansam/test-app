@@ -1,4 +1,4 @@
-# Test App - a simple Go webapp
+# Test App - a simple Go webapp in branch test2
 
 ### Pushing the app to Cloud Foundry
 
