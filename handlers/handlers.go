@@ -12,10 +12,11 @@ import (
 func New(logger lager.Logger, port string) rata.Handlers {
 	t := time.Now()
 	handlers := rata.Handlers{
-		routes.Env:   &Env{},
-		routes.Hello: &Hello{Time: t},
-		routes.Exit:  &Exit{Time: t},
-		routes.Index: &Index{},
+		routes.Env:     &Env{},
+		routes.Hello:   &Hello{Time: t},
+		routes.Version: &Version{},
+		routes.Exit:    &Exit{Time: t},
+		routes.Index:   &Index{},
 		routes.Port: &Port{
 			Port: port,
 		},
