@@ -1,6 +1,6 @@
 {
 	"ImportPath": "github.com/cloudfoundry-samples/test-app",
-	"GoVersion": "go1.7.3",
+	"GoVersion": "go1.7.5",
 	"GodepVersion": "v79",
 	"Packages": [
 		"."
